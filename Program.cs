@@ -72,7 +72,7 @@ namespace DesafioProjetoHospedagem
         static void ConfigureSuite(Reservation reservation)
         {
             Console.WriteLine("\n--- Configure Suite ---");
-            Console.Write("Enter Suite Type (e.g., Standard, Premium, Master): ");
+            Console.Write("Enter Suite Type ( Standard, Premium, Master): ");
             string? suiteType = Console.ReadLine();
 
             int capacity;

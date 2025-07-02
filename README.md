@@ -37,7 +37,7 @@ Reservations with 10 or more days get a 10% discount on total value.
 Total = Days Reserved × Daily Value
 If Days >= 10 → Apply 10% discount
 
-## ✅ Example Output
+## ✅ Example Simple Output
 
 Welcome to the Hotel Reservation System!
 
@@ -50,12 +50,31 @@ Welcome to the Hotel Reservation System!
 
 > Total Reservation Value: $2,160.00
 
+
+## Reservation  Output
+
+--- Reservation Details ---
+Suite Type: Master
+Capacity: 10
+Daily Rate: $300.00
+Guest Count: 4
+Guest Names:
+- Harry  
+- Joe 
+- Mike
+- Chloe
+
+Days Reserved: 11
+Total Cost (with any discount): $2970.00
+
+---------------------------
+
 ## 🛠 Technologies
 
 C# / .NET;
 Console Application;
 OOP (Encapsulation, Composition, Abstraction);
-List<T>, Exception Handling;
+List<T>, Exception Handling; 
 Input validation & business rules;
 
 ## 👤 Author
